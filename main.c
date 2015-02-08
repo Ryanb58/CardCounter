@@ -17,10 +17,11 @@ int main(){
 
         char in[3];
 
-
+        //Put text on screen...then ask for input.
         puts("Input h = high; l = low; n = neutral...\nPress enter when you are done counting the deck. \nNo need for spaces.");
         scanf("%1s", in);
 
+        //Check what the input is.. change the count.
         if(in[0] == 'h')
         {
             count--;
@@ -40,6 +41,7 @@ int main(){
 
     }
 
+    //Print out the final count.
     printf("Count: %i", count);
 
     return 0;
